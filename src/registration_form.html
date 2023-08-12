@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="registration-form registration-form__container">
+            <div class="registration-form__close">
+                <a href="#" class="registration-form__close-icon"><img class="close-icon" src="./assets/icon_close_cross.svg" alt="Закрыть форму" /></a>
+            </div>
+
+            <form action="#" method="" class="registration-form" name="registration-form" novalidate>
+                <div class="registration-form__intro">
+                    <p class="registration-form__up-comment">Простая регистрация за две минуты</p>
+                    <p class="registration-form__title">РЕГИСТРАЦИЯ</p>
+                    <p class="registration-form__low-comment">
+                        Регистрация позволит Вам пользоваться трекером сна на любом устройстве и видеть полную статистику
+                    </p>
+                </div>
+
+                <label class="registration-form__text-label">
+                    <input type="text" class="registration-form__input-text registration-form__baby-name" placeholder="Имя малыша" name="baby-name" />
+                </label>
+                <br />
+
+                <label class="registration-form__photo-label">
+                    <input type="file" name="photo" class="registration-form__photo" />
+                    <br />
+                    <img src="./assets/icon_add_plus.svg" alt="Добавить фото" />
+                    Добавить фото
+                </label>
+                <br />
+
+                <label>
+                    <input type="text" class="registration-form__input-text registration-form__baby-name" placeholder="Имя малыша" name="baby-name" />
+                </label>
+                <br />
+
+                <label class="registration-form__photo-label">
+                    <input type="file" name="photo" class="registration-form__photo" />
+
+                    <br />
+                    <img src="./assets/icon_add_plus.svg" alt="Добавить фото" />
+                    Добавить фото
+                </label>
+                <br />
+
+                <label>
+                    <input type="email" name="email" class="registration-form__input-text" placeholder="Почта" />
+                </label>
+                <br />
+
+                <label>
+                    <input type="password" name="password" class="registration-form__input-text" placeholder="Пароль" />
+                </label>
+
+                <label>
+                    <input type="password" id="repeat-password" name="password" class="registration-form__input-text" placeholder="Подтвердите пароль" />
+                </label>
+                <br />
+
+                <button type="submit" class="registration-form__submit">Готово!</button>
+            </form>
+        </div>
+    </body>
+</html>
