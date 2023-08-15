@@ -4,6 +4,7 @@
   "description": "WEB app to normalize baby sleeping",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
