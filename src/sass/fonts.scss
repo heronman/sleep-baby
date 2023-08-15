@@ -83,3 +83,11 @@
     font-family: 'Shnobel', sans-serif;
     font-size: 1.4rem;
 }
+
+@mixin shnobel-400-15 {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

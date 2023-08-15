@@ -190,3 +190,89 @@ body {
     right: 5%;
     top: 45%;
 }
+
+//Registration form
+
+.registration-form {
+
+    &__modal {
+        display: none;
+        position: fixed;
+        z-index: 100;
+        left: 0px;
+        top: 0px;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        background-color: $base-dark-blue;
+        opacity: 70%;
+    }
+
+    &__container {
+        background-color: $base-dark-blue;
+        opacity: 1;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        width: 40rem;
+        margin-top: 2rem;
+        position: fixed;
+        z-index: 111;
+        left: 0;
+        top: 0;
+        height: 100%;
+    }
+
+    &__close-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    &__intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    &__up-comment {
+        @include shnobel-400-15;
+
+    }
+
+    &__title {
+        @include belota-700-34;
+    }
+
+    &__low-comment {
+        @include belota-400-18;
+    }
+
+    &__photo {
+        display: none;
+    }
+
+    &__photo-label {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__img-background-container {
+        background-image: url('../assets/stars.png');
+        background-repeat: no-repeat;
+        width: 30rem;
+    }
+
+    &__data-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
